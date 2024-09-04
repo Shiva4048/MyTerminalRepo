@@ -1,0 +1,4 @@
+This is a new text file in Git Clone
+
+
+This is second phase of Edition
