@@ -17,3 +17,8 @@ echo "The Diivision of the A & B is : $f"
 
 let g=$a%$b
 echo "The Modulus of theA & B is : $g"
+
+echo "Enter your name :"
+read h
+
+echo "Your name is : $h"
