@@ -1,22 +1,22 @@
 echo "Enter First Choice :"
-read 1
+read a
 echo "Enter Second choice :"
-read 2
+read b
 echo "Enter Final Choice :"
-read 3
+read c
 
-if [ $1 -gt $2 ]; 
-if [ $1 -gt $3 ];
+if [ $a -gt $b ]; 
+if [ $a -gt $c ];
 then
-echo "The Greatest Number is : $1"
+echo "The Greatest Number is : $a"
 else
-if [ $2 -gt $1 ]; 
-if [ $2 -gt $3 ];
-echo "The Greatest Number is : $2"
+if [ $b -gt $a ]; 
+if [ $b -gt $b ];
+echo "The Greatest Number is : $b"
 else
-if [ $3 -gt $1 ]; 
-if [ $3 -gt $2 ];
-echo "The Greatest Number is : $3"
+if [ $c -gt $a ]; 
+if [ $c -gt $b ];
+echo "The Greatest Number is : $c"
 fi
 fi
 fi
